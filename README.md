@@ -39,6 +39,10 @@ These findings are preliminary.
            ↓
          ACTION
 
+
+
+
+```
 ---
 
 ## Repository Structure
@@ -59,3 +63,4 @@ THE-RECEIPT/
 │   Scores, comparisons, and emerging findings
 │
 └── README.md
+```correct
