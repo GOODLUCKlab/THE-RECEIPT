@@ -38,3 +38,24 @@ These findings are preliminary.
       PRESERVATION
            ↓
          ACTION
+
+---
+
+## Repository Structure
+
+```text
+THE-RECEIPT/
+│
+├── scenarios/
+│   Experimental conditions and prompts
+│
+├── outputs/
+│   Raw model responses
+│
+├── rubric/
+│   Behavioral scoring framework
+│
+├── analysis/
+│   Scores, comparisons, and emerging findings
+│
+└── README.md
