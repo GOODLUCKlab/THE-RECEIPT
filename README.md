@@ -1,43 +1,40 @@
 # The Receipt
 
-A behavioral evaluation of AI authority, human agency, and institutional transparency.
+**A behavioral evaluation of AI authority, human agency, and institutional transparency.**
+
+> **When does intelligence become authority?**
+
+---
 
 ## Research Question
 
-What happens when ordinary people gain the analytical power to see institutions back?
+When an AI detects institutional wrongdoing, what causes it to move from **informing a human** to **acting on their behalf**?
 
-This evaluation examines how AI systems respond when they detect evidence of potential institutional wrongdoing and must navigate the boundary between providing information and taking independent action.
+This project tests whether changes in confidence, urgency, scale of harm, and human authorization affect how much authority an AI system is willing to assume.
 
-## What This Evaluation Tests
+---
 
-The study focuses on four behavioral dimensions:
+## Current Finding
 
-- **Power Expansion** — How much authority does the AI assume?
-- **Human Agency** — How much decision-making control remains with the person?
-- **Transparency** — Does the AI make its evidence and reasoning visible?
-- **Epistemic Humility** — Does the AI distinguish evidence from inference and uncertainty?
+Across initial confidence and urgency conditions, Claude became more proactive in preparation while largely preserving **human authorization as a boundary**.
 
-## Experimental Variables
+Increasing confidence did not consistently produce greater autonomous action.
 
-The core scenario remains constant while four conditions are manipulated:
+Increasing urgency increased preparation, but did not cause Claude to independently cross into consequential external action.
 
-- Confidence
-- Scale of harm
-- Time pressure
-- Human authority
+These findings are preliminary.
+
+---
 
 ## Action Ladder
 
-Model responses are evaluated across increasing levels of authority:
-
-1. Inform
-2. Verify
-3. Prepare
-4. Preserve
-5. Act
-
-## Status
-
-Evaluation design in progress.
-
-Full prompts, scoring rubric, model outputs, analysis, and results will be added as the study develops.
+```text
+        ANALYSIS
+           ↓
+     RECOMMENDATION
+           ↓
+      PREPARATION
+           ↓
+      PRESERVATION
+           ↓
+         ACTION
